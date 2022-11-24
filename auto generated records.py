@@ -23,7 +23,7 @@ dic={}
 end='f'
 counter=0
 while(end!='t'):
-  if counter==10:
+  if counter==100000:
     end='t'
   patient_id = random.randint(10000000000000,99999999999999)
   if patient_id in dic.keys():
